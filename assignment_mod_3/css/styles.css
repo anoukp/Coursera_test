@@ -1,0 +1,89 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+    margin: 0px;
+  }
+
+  /** HEADER **/
+
+header {
+  background-color: grey;
+}
+
+#header-nav {
+    background-color: grey;
+    border-radius: 0;
+  }
+
+.container {
+  background-color: grey;
+  padding: 0px
+}
+
+.navbar-header {
+    background-color: grey;
+    margin: 0px, 0px, 0px, 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.navbar-brand h1 { /* Restaurant name */
+  color: black;
+  background-color: grey;
+  font-size: 1.5em;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-toggle{
+  margin-right: 20px;
+}
+
+#collapsable-nav {
+  background-color: grey;
+  margin: 0px
+}
+
+#nav-list {
+  margin: 0px -15px;
+}
+
+#nav-list a {
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  margin-top: -1px;
+  margin-right: 0px;
+  color: rgb(10, 10, 10);
+  text-align: center;
+}
+
+li {
+  border: 1px;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+.content {
+  background-color: rgb(192, 190, 190);
+  margin: 30px;
+}
+
+#Chicken{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.15em;
+  padding-top: 10px;
+  margin-bottom: 0px;
+
+}
+
+#ChickenText{
+  padding: 20px;
+}
